@@ -3,12 +3,12 @@
 const NavBar = () => {
     return (
         <nav id="main-nav" className="nav">
-            <a href="#">Inicio</a>
-            <a href="#">Nosotros</a>
-            <a href="#">Registrate</a>
-            <a href="#">Productos</a>
-            <a href="#">Noticias</a>
-            <a href="#">Contacto</a>
+            <a id="color" href="#">Inicio</a>
+            <a id="color" href="#">Nosotros</a>
+            <a id="color" href="#">Registrate</a>
+            <a id="color" href="#">Productos</a>
+            <a id="color" href="#">Noticias</a>
+            <a id="color" href="#">Contacto</a>
         </nav>
     )
 }

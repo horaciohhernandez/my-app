@@ -1,12 +1,8 @@
-li{    
-    list-style-type: none;
-}
+
 *  {
-    margin: 0.2rem;
-    padding:0.2rem;
-    box-sizing: border-box;
-    outline-color: lightgreen;
-    color: white;
+    margin: 0.1rem;       
+    box-sizing: border-box;    
+    
 }
 
 html , body , #root {
@@ -17,11 +13,13 @@ html , body , #root {
     display: flex;
     flex-direction: column;
 }
-
+#color {
+    color: white;
+}
 #main-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     padding: 0.5rem 1rem;    
     background-color: rgb(192, 149, 162);
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
@@ -34,7 +32,9 @@ main {
 }
 
 footer {
-    background-color: yellow;
+    background-color: rgb(192, 149, 162);
+    color: white;
+    align-content: center;
     text-align: center;
     padding: 0.5rem;
 }
